@@ -1,4 +1,6 @@
 # heroku-laravel
+
+#Laravel frameworkaren instalazio eta konfigurazioa laravelen defektuzko home page bistaratzeko
  
     1 sudo add-apt-repository ppa:ondrej/php -y 
     2  sudo apt-get update -y
@@ -7,9 +9,13 @@
     5  sudo apt-get remove libapache2-mod-php5 -y
     6  sudo apt-get install libapache2-mod-php7.0 -y 
     7  sudo cp /etc/apache2/envvars.bak /etc/apache2/envvars
-    8  sudo nano /home/ubuntu/.bashrc 
-    9  sudo nano /etc/apache2/sites-available/001-cloud9.conf 
+    8   
+        8.1 sudo nano /home/ubuntu/.bashrc
+        8.2 fitxategiaren bukaeran hau itsatsi  --> export PATH=$PATH:/home/ubuntu/.composer/vendor/bi
+    9  
+        9.1 sudo nano /etc/apache2/sites-available/001-cloud9.conf 
+        9.2 DocumentRoot /home/ubuntu/workspace jarri beharrean --> DocumentRoot /home/ubuntu/workspace/public
     10  composer global require "laravel/installer"
-    11  composer create-project --prefer-dist laravel/laravel heroku-laravel
+    11  composer create-project --prefer-dist laravel/laravel <project name>
     12 laravel proiektuko edukia homean kopiatu nahi badugu, .env fitxategia kopiatu dela ziurtatu behar dugu
     
