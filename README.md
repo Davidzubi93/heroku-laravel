@@ -23,5 +23,5 @@
 
     1 Herokuren web orrira joan eta erregistratu https://www.heroku.com/
     
-    2 Erregistratutakoan, get estarted
+    2 Erregistratutakoan, get started
     
