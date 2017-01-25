@@ -19,9 +19,5 @@
     11  composer create-project --prefer-dist laravel/laravel <project name>
     12 laravel proiektuko edukia homean kopiatu nahi badugu, .env fitxategia kopiatu dela ziurtatu behar dugu
     
-#Herokuren instalazio eta konfigurazioa
 
-    1 Herokuren web orrira joan eta erregistratu https://www.heroku.com/
-    
-    2 Erregistratutakoan, get started
     
