@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <!-- FontAwesome to Social Media Icons -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?x25758" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -62,6 +64,38 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            
+            ul {
+	overflow: auto;
+}
+
+/* Lineas añadidas para que se vea el icono de twitter enlazado con nuestra cuenta de twitter*/
+
+ul {
+    overflow: auto;
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-twitter {
+    background:#00aced
+}
         </style>
     </head>
     <body>
@@ -89,6 +123,9 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <ul>
+                    <li><a href="http://twitter.com/frogafroga"><i class="fa fa-twitter"></i></a>@frogafroga</li>
+                </ul> 
             </div>
         </div>
     </body>
